@@ -1,21 +1,31 @@
-import { defineConfig } from "astro/config";
-import partytown from "@astrojs/partytown";
-import tailwind from "@astrojs/tailwind";
-import icon from "astro-icon";
+import { defineConfig } from 'astro/config'
+import partytown from '@astrojs/partytown'
+import tailwind from '@astrojs/tailwind'
+import icon from 'astro-icon'
 
-import sitemap from "@astrojs/sitemap";
+import sitemap from '@astrojs/sitemap'
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://astro-theme-one.vercel.app/",
+  site: 'https://astro-theme-one.vercel.app/',
   integrations: [
     tailwind(),
     icon(),
     sitemap(),
     partytown({
       config: {
-        forward: ["dataLayer.push"],
-      },
-    }),
+        forward: ['dataLayer.push']
+      }
+    })
   ],
-});
+  vite: {
+    build: {
+      inlineStylesheets: 'never',
+      rollupOptions: {
+        output: {
+          assetFileNames: 'styles/[name][extname]'
+        }
+      }
+    }
+  }
+})
