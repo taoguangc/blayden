@@ -35,11 +35,11 @@ export const navigationBarData: NavData = {
 	logo: {
 		src: '/logo.svg',
 		alt: 'The tailwind astro theme',
-		text: 'Foxi.'
+		text: 'Blayden.'
 	},
 	navItems: [
-		{ name: 'Home', link: '/' },
-		{ name: 'Pricing', link: '/pricing' },
+		{ name: '首页', link: '/' },
+		{ name: '价格', link: '/pricing' },
 		{ name: 'Features', link: '/features' },
 		{
 			name: 'Resources',

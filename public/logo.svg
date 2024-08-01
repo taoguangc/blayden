@@ -1,12 +1,28 @@
-<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M4.11835 27.4639L7.63915 11.491L23.9881 48L4.11835 27.4639Z" fill="#EC4899"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M43.8579 27.4639L40.3608 11.491L23.9881 48L43.8579 27.4639Z" fill="#EC4899"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M7.63946 11.491L4.11863 0L17.3178 11.491H7.63946Z" fill="#EC4899"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M40.3608 11.491L43.8817 0L30.6825 11.491H40.3608Z" fill="#EC4899"/>
-<path d="M23.9881 48L7.63915 11.491H24H40.3608L23.9881 48Z" fill="#EC4899"/>
-<path d="M27.5876 39.9735H20.394L23.9882 48.0002L27.5876 39.9735Z" fill="#9D174D"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M4.11835 27.464L7.63915 11.4911L23.9881 48.0001L4.11835 27.464Z" fill="#BE185D"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M43.8579 27.464L40.3608 11.4911L23.9881 48.0001L43.8579 27.464Z" fill="#BE185D"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M7.63941 11.491L4.11859 0L17.3177 11.491H7.63941Z" fill="#DB2777"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M40.3608 11.491L43.8817 0L30.6825 11.491H40.3608Z" fill="#DB2777"/>
+<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 50 50" style="enable-background:new 0 0 50 50;" xml:space="preserve">
+  <style type="text/css">
+    .mxd-background {
+      fill: var(--neutral-bright);
+    }
+    .mxd-cat {
+      clip-path: url(#mxd-path-id);
+      fill: var(--t-opp-bright);
+    }
+  </style>
+  <path class="mxd-background" d="M33.4,50H16.7C7.5,50,0,42.5,0,33.3V16.7C0,7.5,7.5,0,16.7,0h16.7C42.5,0,50,7.5,50,16.7v16.7
+    C50,42.5,42.5,50,33.4,50z"></path>
+  <g>
+    <defs>
+      <path id="mxd-clip-path" d="M33.4,50H16.7C7.5,50,0,42.5,0,33.3V16.7C0,7.5,7.5,0,16.7,0h16.7C42.5,0,50,7.5,50,16.7v16.7
+        C50,42.5,42.5,50,33.4,50z"></path>
+    </defs>
+    <clipPath id="mxd-path-id">
+      <use xlink:href="#mxd-clip-path" style="overflow:visible;"></use>
+    </clipPath>
+    <path class="mxd-cat" d="M29.2,30.8h2.5v2.5v2.5
+      h-2.5v-2.5V30.8z M18.4,33.3v2.5h2.5v-2.5v-2.5h-2.5V33.3z M35,18.3v2.5h-2.5v-2.5H35z M30,23.3h2.5v-2.5H30V23.3z M25,23.3h-2.5
+      H20v2.5h2.5H25h2.5H30v-2.5h-2.5H25z M17.5,20.8v2.5H20v-2.5H17.5z M15,18.3v2.5h2.5v-2.5H15z M12.5,23.3v2.5v2.5H15v-2.5v-2.5
+      v-2.5h-2.5V23.3z M10,30.8v2.5H8.4H5.9v2.5h2.5v2.5H5.9v2.5h2.5v2.5v2.5v2.5v2.5h2.5v-2.5v-2.5v-2.5h2.5h2.5v-2.5h-2.5h-2.5v-2.5
+      v-2.5v-2.5h1.7v-2.5v-2.5H10V30.8z M37.5,23.3v-2.5H35v2.5v2.5v2.5h2.5v-2.5V23.3z M44.2,35.8v-2.5h-2.5H40v-2.5v-2.5h-2.5v2.5v2.5
+      h1.7v2.5v2.5v2.5h-2.5h-2.5v2.5h2.5h2.5v2.5v2.5v2.5h2.5v-2.5v-2.5v-2.5v-2.5h2.5v-2.5h-2.5v-2.5H44.2z"></path>
+  </g>
 </svg>

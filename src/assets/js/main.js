@@ -143,8 +143,8 @@ if (document.documentElement.classList.contains('mode-auto')) {
 	document.documentElement.classList.remove('dark')
 }
 
+// Lenis
 import Lenis from 'lenis'
-
 const lenis = new Lenis()
 
 function raf(time) {
